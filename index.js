@@ -46,3 +46,7 @@ meni.appendChild(Createmenu("minu"));
 meni.appendChild(Createmenu("tuni"));
 meni.appendChild(Createmenu("tinni"));
 meni.appendChild(Createmenu("tanna"));
+
+// using textContent show the Hidden text
+let text = document.getElementById("textcontent");
+console.log(text.textContent);
